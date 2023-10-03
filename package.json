@@ -1,11 +1,24 @@
 {
-  "name": "typescript-homework-module-3",
+  "name": "typescript-homework-module-2",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "scripts": {
+    "start": "web-dev-server --node-resolve --open --watch"
+  },
   "dependencies": {
     "typescript": "^5.1.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.0.3",
+    "@web/dev-server": "^0.3.2"
   }
 }
