@@ -89,7 +89,7 @@ const kelly = new Person({ name: 'Kelly', key });
 const anon = new Person({ key: new Key() });
 
 // Kelly
-house.comeIn(kelly); // The door is locked, use your key, Kelly
+house.comeIn(kelly); // The door is locked, use your key
 house.unlockDoor(kelly.getKey()); // The door is unlocked, you can come in
 house.comeIn(kelly); // Welcome home, Kelly
 house.lockDoor(kelly.getKey()); // The door was locked, you're safe now
